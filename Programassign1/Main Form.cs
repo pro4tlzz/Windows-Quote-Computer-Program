@@ -194,6 +194,11 @@ namespace Programassign
                 TextBoxTotalPriceBeforeVAT.Text, ListBoxVATStatus.Text);
             f2.Show();
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 
 
