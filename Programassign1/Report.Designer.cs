@@ -338,9 +338,9 @@
             // 
             // PrintForm1
             // 
-            this.PrintForm1.DocumentName = "document";
+            this.PrintForm1.DocumentName = "Report";
             this.PrintForm1.Form = this;
-            this.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter;
+            this.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPreview;
             this.PrintForm1.PrinterSettings = ((System.Drawing.Printing.PrinterSettings)(resources.GetObject("PrintForm1.PrinterSettings")));
             this.PrintForm1.PrintFileName = null;
             // 

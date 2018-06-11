@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Drawing.Printing;
 using System.Windows.Forms;
 
 
@@ -58,9 +58,11 @@ namespace Programassign
             printPreviewDialog1.Show();
             */
 
-         //   PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview;
+            //   PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview;
 
+            btn_Print.Visible = false;
             PrintForm1.Print();
+            btn_Print.Visible = true;
         }
 
         private void LabelVatOutPut_Click(object sender, EventArgs e)
