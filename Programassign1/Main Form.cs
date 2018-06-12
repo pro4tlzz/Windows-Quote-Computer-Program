@@ -197,6 +197,7 @@ namespace Programassign
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            //exits application
             Application.Exit();
         }
     }
